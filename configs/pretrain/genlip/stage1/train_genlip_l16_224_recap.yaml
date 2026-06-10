@@ -6,8 +6,8 @@ model:
   use_flex_attn: true
 
 data:
-  train_path: path_to_recap_datacomp_1B
-  source_name: "recap_datacomp_1b"
+  train_path: path_to_your_dataset
+  source_name: "recap_datacomp_1b"                    # dataset read and parsing func
   chat_template: qwen2vl_pretrain
   train_size: 270_000_000_000                         # estimated tokens for 1B samples 
   dataloader_type: native

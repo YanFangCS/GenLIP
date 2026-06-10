@@ -57,7 +57,7 @@ pip install -e .   # install veomni from this repo
 > pip install -e .
 > ```
 
-### Datasets
+<!-- ### Datasets
 
 #### Data Source
 
@@ -76,13 +76,16 @@ We use several caption datasets during pretraining:
 
 For Stage 1, training GenLIP with 1B seen samples is sufficient to obtain a strong vision encoder.
 For Stage 2, training GenLIP with Infinity-MM and BLIP3o-Long-Caption using NaViT is sufficient.
-Training with the two additional datasets (CapRL and PLM-Image-Auto) does not bring further performance gains, but we list them here as potential alternatives.
+Training with the two additional datasets (CapRL and PLM-Image-Auto) does not bring further performance gains, but we list them here as potential alternatives. -->
+
+### Datasets
 
 #### Data Format
 
-All datasets need to be downloaded and processed into suitable formats for pretraining. Please ensure your preprocessing function can correctly consume your data.
+<!-- All datasets need to be downloaded and processed into suitable formats for pretraining. Please ensure your preprocessing function can correctly consume your data. -->
+Please ensure your preprocessing function can correctly consume your data. 
 
-Below are example data formats:
+Below are example data formats in our pretraining:
 
 ```python
 # Stage 1 caption data

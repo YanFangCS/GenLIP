@@ -18,7 +18,6 @@ license = { file = "LICENSE" }
 
 dependencies = [
   "blobfile>=3.0.0",
-  "bytecheckpoint",
   "datasets",
   "packaging>=23.0,<26.0",
   "tiktoken>=0.9.0",

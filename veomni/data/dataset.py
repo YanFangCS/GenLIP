@@ -287,11 +287,8 @@ def build_mixed_iterative_wdsapi(
 ):
     total_data_files = []
     for data_path in mix_data_path:
-        if 'recap' in data_path: # support auto expand recap data path
-            data_files = wds.shardlists.expand_urls(data_path.strip())
-        else:
-            data_path = os.path.join(data_path.strip(), "**/*.tar")
-            data_files = glob.glob(data_path, recursive=True)
+        data_path = os.path.join(data_path.strip(), "**/*.tar")
+        data_files = glob.glob(data_path, recursive=True)
         total_data_files = total_data_files + data_files
     logger.info(f"Loading {len(total_data_files)} webdataset tars from {len(mix_data_path)} data sources.")
 

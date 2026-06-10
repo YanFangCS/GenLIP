@@ -28,9 +28,7 @@ from .dataset import (
     build_iterative_dataset, 
     build_mapping_dataset, 
     build_iterative_webdataset, 
-    build_iterative_vqa_webdataset, 
     build_iterative_webdataset_wdsapi,
-    build_mixed_iterative_webdataset,
     build_mixed_iterative_wdsapi,
 )
 from .multimodal.data_collator import (

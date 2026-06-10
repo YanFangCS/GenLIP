@@ -32,7 +32,6 @@ from veomni.data import (
     build_mapping_dataset,
     build_iterative_dataset,
     build_iterative_webdataset,
-    build_mixed_iterative_webdataset,
     build_mixed_iterative_wdsapi,
     build_multimodal_chat_template,
 )
@@ -47,7 +46,6 @@ from veomni.utils import helper
 from veomni.utils.arguments import DataArguments, ModelArguments, TrainingArguments, parse_args, save_args
 from veomni.utils.dist_utils import all_reduce
 from veomni.utils.flex_attn_utils import create_fast_flex_mask_padding, create_flex_mask_padding
-# from veomni.utils.flex_attn_utils import create_mmformer_flex_mask_padding, create_mmformer_full_flex_mask_padding
 
 from transformers import AutoModelForCausalLM
 

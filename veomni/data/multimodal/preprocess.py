@@ -17,8 +17,6 @@ import random
 import re
 from typing import Any, Dict, List
 
-MAX_RECAP_LEN = 1024 # MAX
-
 def sharegpt4v_pretrain_preprocess(conversations, generation_ratio=0.0, **kwargs):
     constructed_conversation = []
     if conversations[0]["from"] != "human":  # Skip the first one if it is not from human
@@ -208,9 +206,6 @@ def datacomp_1b_preprocess(conversations, **kwargs):
 
 def recap_datacomp_1b_preprocess(conversations, **kwargs):
     caption = conversations["caption"]
-    if len(caption) > MAX_RECAP_LEN:
-        caption = conversations["org_caption"]
-    # caption = conversations["org_caption"]
     constructed_conversation = [
         ["user", ("image", None), ("text", "Describe the image in detail.")],
         ["assistant", ("text", caption)],
