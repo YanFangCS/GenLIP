@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Let ViT Speak: Generative Language-Image Pre-training</h1>
+<h1>Let ViT Speak: Generative Language-Image Pre-training (ECCV 2026)</h1>
 
 <b>Yan Fang</b><sup>1,2,&#42;</sup> · <b><a href="https://mc-lan.github.io">Mengcheng Lan</a></b><sup>2,3,&#42;</sup> · <b><a href="https://speedinghzl.github.io">Zilong Huang</a></b><sup>2,&dagger;</sup> · <b>Weixian Lei</b><sup>2</sup> · <b><a href="https://yunqing-me.github.io">Yunqing Zhao</a></b><sup>2</sup> · <b><a href="https://y-zhong.info">Yujie Zhong</a></b><sup>2</sup> · <b><a href="https://yingchen001.github.io">Yingchen Yu</a></b><sup>2</sup> · <b><a href="https://qi-she.net/">Qi She</a></b><sup>2</sup> · <b>Yao Zhao</b><sup>1</sup> · <b><a href="https://weiyc.github.io">Yunchao Wei</a></b><sup>1,&dagger;</sup>
 
@@ -170,7 +170,7 @@ If you find this project helpful, please give us a star and cite our [paper](htt
 @article{fang2026letvitspeakgenerative,
   title={Let ViT Speak: Generative Language-Image Pre-training}, 
   author={Yan Fang and Mengcheng Lan and Zilong Huang and Weixian Lei and Yunqing Zhao and Yujie Zhong and Yingchen Yu and Qi She and Yao Zhao and Yunchao Wei},
-  journal={arXiv preprint arXiv:2605.00809},
+  booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2026}
 }
 ```
